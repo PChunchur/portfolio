@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen h-screen flex-row items-center justify-start p-0">
-      <section className= 'flex flex-col h-full w-2/12 bg-black '>
+      <section className= 'hidden lg:flex flex-col h-full w-2/12 bg-black '>
       <a className='fixed top-10 mt-[-25px] ml-10' href='#'>
             <Image
               className='w-[70px] lg:w-[120px]'
@@ -19,8 +19,25 @@ export default function Home() {
             ></Image>
           </a>
            </section>
-      <section className= 'flex flex-col h-full w-10/12'>
+      <section className= 'flex flex-col h-full w-full lg:w-10/12'>
         <header className='flex flex-row h-max pt-5 w-full items-center justify-between bg-white px-3 lg:px-10'>
+        {/* <a className='lg:hidden fixed top-[10px] ml-[10px] select-none' href='#'>
+            <Image
+              className='w-[70px] lg:w-[120px]'
+              src={'/logo-wobg-min.png'}
+              width={LOGO_SIZE}
+              height={LOGO_SIZE}
+              alt={'PC\'s logo image'}
+            ></Image>
+          </a> */}
+          <Image
+              className='w-[50px] lg:w-[0px]'
+              src={'/menulogo.png'}
+              width={LOGO_SIZE}
+              height={LOGO_SIZE}
+              alt={'PC\'s infinity logo image'}
+            ></Image>
+          
           
           <aside className='flex justify-end flex-row gap-5 lg:gap-10 w-full h-max'>
             <a href='https://github.com/PChunchur' target={'_blank'}>
@@ -63,7 +80,7 @@ export default function Home() {
             ></Image>
             <h1 className='font-bold text-2xl lg:text-4xl'>PRANAV</h1>
           </article>
-          <article className='flex flex-col gap-5 w-8/12 text-center text-lg'>
+          <article className='flex flex-col gap-5 w-8/12 text-center lg:text-lg'>
             <section> I’m Pranav Chunchur a Third year CSE student at VIT Bhopal. My current passion lies in the field of iOS app development, I've also dabbled in graphic design, adding an extra touch of visual finesse to my app development skills. After all, why settle for ordinary when you can merge functionality with eye-catching aesthetics?.
               With a strong cup of filter coffee as my trusted companion I create new ideas and figure out ways to implement it while also refining my skills in the process
             </section>
