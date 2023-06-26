@@ -81,11 +81,7 @@ export default function Home() {
             <h1 className='font-bold text-2xl lg:text-4xl'>PRANAV</h1>
           </article>
           <article className='flex flex-col gap-5 w-8/12 text-center lg:text-lg'>
-            <section> I’m Pranav Chunchur a Third year CSE student at VIT Bhopal. My current passion lies in the field of iOS app development, I've also dabbled in graphic design, adding an extra touch of visual finesse to my app development skills. After all, why settle for ordinary when you can merge functionality with eye-catching aesthetics?.
-              With a strong cup of filter coffee as my trusted companion I create new ideas and figure out ways to implement it while also refining my skills in the process
-            </section>
-            <section> Beyond the tech world I am an athlete and also hold the position of President at Technomech - A technical club at VIT Bhopal while still managing to explore domains of my interest and learn something new everyday.
-              So, step into my digital realm and experience the exciting convergence of technology, design, and commitment to innovating new ideas.
+            <section> Undergrad CSE student - VIT Bhopal | iOS app development | Graphic design | President - Technomech Club
             </section>
           </article>
         </section>
