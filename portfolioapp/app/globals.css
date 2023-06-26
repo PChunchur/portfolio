@@ -16,10 +16,3 @@ body {
   margin: 0;
   padding: 0;
 }
-a {
-  user-select: none;
-}
-a:active {
-  background-color: white;
-  border: 0;
-}
