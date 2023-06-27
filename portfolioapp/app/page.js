@@ -71,7 +71,7 @@ export default function Home() {
           </a>
         </section>
       </section>
-      <section className='hidden md:flex flex-col h-full w-2/12 bg-black '>
+      <section className='hidden md:flex flex-col h-full w-2/12 bg-black  justify-center items-center  '>
         <a className='fixed hidden md:flex top-10 mt-[-25px] ml-10' href='#'>
           <Image
             className='w-[70px] md:w-[120px]'
@@ -81,6 +81,26 @@ export default function Home() {
             alt={'PC\'s logo image'}
           ></Image>
         </a>
+        <section className='flex text-white flex-col w-full h-full items-start pl-10 justify-center gap-10 text-2xl'>
+          <h3 className='hover:text-pcRed'>About</h3>
+          <h3 className='hover:text-pcRed'>Projects</h3>
+          <h3 className='hover:text-pcRed'>Blog</h3>
+          <a
+            download
+            href='/resume.pdf'
+            target={'_blank'}
+            className='flex flex-row w-max gap-3 h-max'
+          >
+            <h3 className='hover:text-pcRed'>Resume</h3>
+            <Image
+              className='bg-white rounded-full border-[1px] border-pcRed'
+              src={'/download.png'}
+              width={32}
+              height={32}
+              alt={'download'}
+            ></Image>
+          </a>
+        </section>
       </section>
       <section className='flex flex-col h-full w-full md:w-10/12'>
         <header className='flex flex-row h-max w-full md:pt-5 items-center justify-between bg-white px-5 pt-3 md:px-10'>
